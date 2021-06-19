@@ -29,6 +29,9 @@ When you make changes to `ui-lovelace.yaml`, you don't have to restart Home Assi
 
 To revert back to using the UI to edit your Lovelace interface, remove the `lovelace` section from your `configuration.yaml` and copy the contents of your `ui-lovelace.yaml` into the raw configuration section of Home Assistant and restart.
 
+If you've set the dashboards to yaml mode; but can't see changes; you may have multiple dashboards. Make sure that you are looking at the correct dashboard.
+Go "configuration" and click on "lovelace dashboards". Make sure that overview is the default dashboard and confirm it's set to yaml file.
+
 ### Adding more dashboards with YAML
 
 It is also possible to use YAML to define multiple dashboards. Each dashboard will be loaded from its own YAML file.
